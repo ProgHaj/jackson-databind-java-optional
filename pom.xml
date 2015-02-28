@@ -9,6 +9,7 @@
     <groupId>org.zapodot</groupId>
     <artifactId>jackson-databind-java-optional</artifactId>
     <version>2.5.0-SNAPSHOT</version>
+    <packaging>bundle</packaging>
     <description>Jackson Databind module for serializing and deserializing Java 8 java.util.Option objects.
         This tool is forked from original source created by @realjenius </description>
     <developers>
@@ -110,6 +111,12 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.5.3</version>
+                <extensions>true</extensions>
             </plugin>
         </plugins>
     </build>
