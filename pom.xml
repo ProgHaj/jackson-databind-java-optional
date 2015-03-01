@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <version>9</version>
     </parent>
     <groupId>org.zapodot</groupId>
     <artifactId>jackson-databind-java-optional</artifactId>
@@ -42,7 +42,7 @@
     </licenses>
     <properties>
         <junit.version>4.12</junit.version>
-        <jackson-core.version>2.4.5</jackson-core.version>
+        <jackson-core.version>2.5.0</jackson-core.version>
         <jackson-databind.version>${jackson-core.version}</jackson-databind.version>
     </properties>
     <dependencies>
