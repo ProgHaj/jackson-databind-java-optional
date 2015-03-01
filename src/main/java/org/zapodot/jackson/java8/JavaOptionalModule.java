@@ -19,7 +19,7 @@ public class JavaOptionalModule extends Module {
 
     @Override
     public Version version() {
-        return Version.unknownVersion();
+        return new PackageVersion().version();
     }
 
     @Override
