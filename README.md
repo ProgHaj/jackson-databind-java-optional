@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/zapodot/jackson-databind-java-optional.svg)](https://travis-ci.org/zapodot/jackson-databind-java-optional)
 [![Coverage Status](https://img.shields.io/coveralls/zapodot/jackson-databind-java-optional.svg)](https://coveralls.io/r/zapodot/jackson-databind-java-optional?branch=master)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.zapodot/jackson-databind-java-optional/badge.svg)](http://mvnrepository.com/artifact/org.zapodot/jackson-databind-java-optional)
+[![Analytics](https://ga-beacon.appspot.com/UA-40926073-3/jackson-databind-java-optional/README.md)](https://github.com/igrigorik/ga-beacon)
 
 A shim library to support mapping Java 8 Optional through Jackson. Forked from @realjenuis jackson-databind-java8 project.
 
