@@ -15,13 +15,13 @@ The library is distributed through Sonatype's OSS repo
         <dependency>
             <groupId>org.zapodot</groupId>
             <artifactId>jackson-databind-java-optional</artifactId>
-            <version>2.5.0</version>
+            <version>2.5.1</version>
         </dependency>
 ```
 
 ### SBT
 ```scala
-    libraryDependencies += "org.zapodot" % "jackson-databind-java-optional" % "2.5.0"
+    libraryDependencies += "org.zapodot" % "jackson-databind-java-optional" % "2.5.1"
 ```
 
 
