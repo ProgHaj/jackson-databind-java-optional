@@ -33,11 +33,7 @@ public class AnotherAfterBurnerIssueTest {
 
         assertEquals(CustomJsonObject.INT_VALUE, json.get("integer").asInt());
 
-        /* For JavaBeans where getters are used for serialization and AfterBurner is registered, empty optional
-        will not be considered to be null as the Afterburner-optimized serializer will be used instead of the one provided
-        by this module
-         */
-        assertTrue(json.has("optionalEmpty"));
+        assertFalse(json.has("optionalEmpty"));
     }
 
     @Test
