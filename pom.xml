@@ -40,9 +40,20 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Nexus Release Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
     <properties>
         <junit.version>4.12</junit.version>
-        <jackson-core.version>2.5.4</jackson-core.version>
+        <jackson-core.version>2.6.0</jackson-core.version>
         <jackson-databind.version>${jackson-core.version}</jackson-databind.version>
 
         <packageVersion.package>org.zapodot.jackson.java8</packageVersion.package>
