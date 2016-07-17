@@ -8,6 +8,9 @@ A shim library to support mapping Java 8 Optional through Jackson. Forked from @
 
 This library is compiled with Java 8 and will thus only be useful in a Java 8 (or higher) runtime environment. 
 
+## Alternatives ##
+If you are starting a new project that requires support for Java 8 combined with Jackson Databind, you should probably have a lock at [FasterXML's JDK 8 module](//github.com/FasterXML/jackson-datatype-jdk8). 
+
 ## Usage
 The library is distributed through Sonatype's OSS repo
 ### Maven dependency
@@ -99,6 +102,4 @@ Example:
         }
     }
 ```
-## Alternative
-As an alternative you might consider using [FasterXML's JDK 8 module](//github.com/FasterXML/jackson-datatype-jdk8). 
 
